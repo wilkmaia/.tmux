@@ -341,6 +341,16 @@ tmux_conf_copy_to_os_clipboard=false
 # 'status-right', you can use it in 'tmux_conf_theme_status_left' and
 # 'tmux_conf_theme_status_right' variables.
 
+# by default, launching tmux will update tpm and all plugins
+#   - true (default)
+#   - false
+tmux_conf_update_plugins_on_launch=true
+
+# by default, reloading the configuration will update tpm and all plugins
+#   - true (default)
+#   - false
+tmux_conf_update_plugins_on_reload=true
+
 # /!\ do not add set -g @plugin 'tmux-plugins/tpm'
 # /!\ do not add run '~/.tmux/plugins/tpm/tpm'
 
